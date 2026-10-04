@@ -2,6 +2,21 @@
 
 The web app for my [Apartment Management System API](https://github.com/denmarthrtn/ApartmentSystem). It is built with React, TypeScript, Vite and Tailwind CSS.
 
+## Live demo
+
+**https://yellow-pond-033850b00.5.azurestaticapps.net**
+
+You can sign in with either of these demo accounts:
+
+| Role             | Email                         | Password         |
+|------------------|-------------------------------|------------------|
+| Property manager | `demo.admin@apartments.local` | `Demo#Admin2026` |
+| Tenant           | `juan.delacruz@example.com`   | `Tenant#2026x`   |
+
+The site and the API are both on Azure's free tier. The API goes to sleep when nobody is using it, so the first page can take a minute or more to load and may say "Can't reach the server" at first. Give it a moment and refresh.
+
+Everything in the demo is sample data, so feel free to add, edit and delete things.
+
 ## What it does
 
 - **Public page.** Anyone can browse the vacant apartments.
@@ -27,12 +42,7 @@ If the pages say "Can't reach the server" while the API is running, the API was 
 
 ### Demo accounts
 
-The API creates these when it runs in Development. They are the same accounts the two buttons on the login page use.
-
-| Role             | Email                         | Password         |
-|------------------|-------------------------------|------------------|
-| Property manager | `demo.admin@apartments.local` | `Demo#Admin2026` |
-| Tenant           | `juan.delacruz@example.com`   | `Tenant#2026x`   |
+The API creates the same two accounts listed under [Live demo](#live-demo) when it runs in Development. They are the accounts the two buttons on the login page use.
 
 ### Settings
 
